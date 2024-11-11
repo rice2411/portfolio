@@ -11,15 +11,15 @@ import { Stack } from "@/components/Stack";
 export default function Home() {
   return (
     <>
-        <Navbar/>
-        <Hero/>
-        <Stack/>
-        <LogoAnimation/>
-        <Portfolio/>
-        <KeyMetrics/>
-        <Services/>
-        <Contact/>
-        <Footer/>
-    </>  
-    );
+      <Navbar />
+      <Hero />
+      <Stack />
+      <LogoAnimation />
+      <Portfolio />
+      <KeyMetrics />
+      <Services />
+      <Contact/>
+      <Footer />
+    </>
+  );
 }
