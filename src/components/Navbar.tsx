@@ -18,9 +18,6 @@ export const Navbar = () => {
     setIsOpen(!isOpen);
   };
 
-  const onCloseNav = () => {
-    setIsOpen(false);
-  };
   return (
     <div className="z-50 fixed flex justify-center w-full text-white font-bold">
       <div
