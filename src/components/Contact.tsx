@@ -33,30 +33,30 @@ export const Contact = () => {
             <div className="space-y-2">
               <p className="text-lg text-gray-300">Phone</p>
               <a
-                href="tel:+840776750418"
+                href="tel:+999999999"
                 className="text-2xl font-semibold hover:text-purple-400 transition duration-300 flex items-center gap-2"
               >
-                +84 (0) 77 675 0418
-                <span className="text-gray-500">↗</span>
+                +99 (0) 99 999 999<span className="text-gray-500">↗</span>
               </a>
             </div>
 
             <div className="space-y-2">
               <p className="text-lg text-gray-300">Email</p>
               <a
-                href="mailto:minhrice.dev@gmail.com"
+                href="mailto:john@doe.com"
                 className="text-2xl font-semibold hover:text-purple-400 transition duration-300 flex items-center gap-2"
               >
-                minhrice.dev@gmail.com
-                <span className="text-gray-500">↗</span>
+                minhrice.dev@gmail.com<span className="text-gray-500">↗</span>
               </a>
             </div>
             <div className="space-y-2">
               <p className="text-lg text-gray-300">Office</p>
               <address className="text-xl not-italic leading-relaxed">
-                Rikkei Soft <br />
-                Hue City <br />
-                VietNam
+                Keizersgracht 520, 1017EK
+                <br />
+                Amsterdam
+                <br />
+                The Netherlands
               </address>
             </div>
           </motion.div>
