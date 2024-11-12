@@ -40,7 +40,7 @@ const metrics = [
 export const KeyMetrics = () => {
   const ref = React.useRef<HTMLElement>(null);
 
-  const isInView = useInView(ref, { once: true });
+  const isInView = useInView(ref);
   return (
     <motion.section
       ref={ref}

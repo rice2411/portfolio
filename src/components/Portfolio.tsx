@@ -3,7 +3,7 @@
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import rikkei from "@/assets/rikkei.jpg";
-import lacviet from "@/assets/proj1.jpg";
+import lacviet from "@/assets/lacviet.png";
 import stdio from "@/assets/stdio.jpg";
 import {
   useMotionTemplate,
@@ -59,7 +59,7 @@ export const Portfolio = () => {
   return (
     <motion.section
       id="portfolio"
-      className="py-32 text-white"
+      className="py-32 text-white "
       style={{
         backgroundImage,
       }}
@@ -98,7 +98,7 @@ export const Portfolio = () => {
         <Image
           src={selectedProject.image.src}
           alt={selectedProject.title}
-          className="rounded-xl shadow-lg transition-opacity duration-500 ease-in-out"
+          className="rounded-xl shadow-lg transition-opacity duration-500 ease-in-out bg-white"
           width={800}
           height={450}
         />
