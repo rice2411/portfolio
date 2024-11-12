@@ -6,7 +6,7 @@ import { motion, useInView } from "framer-motion";
 const metrics = [
   {
     id: 1,
-    value: "5+",
+    value: "3+",
     label: "Years of Experience",
     description: "Dedicated to honing my skills in full-stack development.",
   },

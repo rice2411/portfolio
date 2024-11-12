@@ -14,6 +14,10 @@ import { FiArrowRight } from "react-icons/fi";
 
 const COLORS_TOP = ["#13FFAA", "#1E67C6", "#CE84CF", "#DD35C"];
 
+// Google Drive direct download link
+const CV_LINK =
+  "https://drive.google.com/uc?export=download&id=1kY7wDyNNQYM_n721fb5DAuhI6iWCrfTY";
+
 export const Hero = () => {
   const color = useMotionValue(COLORS_TOP[0]);
 
@@ -45,7 +49,7 @@ export const Hero = () => {
         <h1 className="max-w-3xl bg-gradient-to-br from-white to-gray-400 bg-clip-text font-black leading-tight text-transparent text-5xl md:text-7xl">
           Minh Rice
         </h1>
-        <Image src={profilepic} alt="Minh Rice" width={250}></Image>
+        <Image src={profilepic} alt="Minh Rice" width={250} />
         <div className="flex bg-white/10 shadow-xl p-3 rounded-3xl justify-center items-center space-x-2 mb-4">
           <Image
             src={obj}
@@ -65,13 +69,15 @@ export const Hero = () => {
             width={30}
             className="rounded-2xl mx-auto"
           />
-          <p className="font-medium">80 + Happy C;ients</p>
+          <p className="font-medium">10 + Happy Clients</p>
         </div>
         <p className="my-6 max-w-xl text-center">
-          Fullstack developer based in Hue, with over 3 yeas of experience.
+          Web developer based in Hue, with over 3 years of experience.
         </p>
 
-        <motion.button
+        <motion.a
+          href={CV_LINK}
+          download="MinhRice_CV.pdf"
           style={{
             border,
             boxShadow,
@@ -86,7 +92,7 @@ export const Hero = () => {
         >
           Download CV
           <FiArrowRight />
-        </motion.button>
+        </motion.a>
       </div>
       <div className="bg-circle-container">
         <div className="bg-circle-background"></div>

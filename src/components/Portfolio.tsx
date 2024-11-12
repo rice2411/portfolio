@@ -2,9 +2,9 @@
 
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
-import project1 from "@/assets/proj5.png";
-import project2 from "@/assets/proj6.png";
-import project3 from "@/assets/proj7.png";
+import rikkei from "@/assets/rikkei.jpg";
+import lacviet from "@/assets/proj1.jpg";
+import stdio from "@/assets/stdio.jpg";
 import {
   useMotionTemplate,
   useMotionValue,
@@ -15,27 +15,27 @@ import {
 const projects = [
   {
     id: 1,
-    year: 2023,
-    title: "Doodle - customer support chatbot",
+    year: "Dec 2023 - Now",
+    title: "Rikkeisoft",
     description:
-      "We built an advanced customer support chatbot for Doodle. Our chatbot now handles 87% of Doodles/s customer suppoter",
-    image: project1,
+      "I worked at Rikkeisoft as a Junior Web Developer, participating in the development of projects using JavaScript technologies such as Vue, Nuxt, React, and Nest.",
+    image: rikkei,
   },
   {
     id: 2,
-    year: 2023,
-    title: "Doodle - customer support chatbot",
+    year: "Oct 2022 - Jul 2023",
+    title: "Lac Viet Computing Corporation",
     description:
-      "We built an advanced customer support chatbot for Doodle. Our chatbot now handles 87% of Doodles/s customer suppoter",
-    image: project2,
+      "Lac Viet Computing Corporation is a production company that uses prominent technologies like .NET and Angular. I gained experience with concepts such as Caching, Microservices, Redis, and the Ionic Framework",
+    image: lacviet,
   },
   {
     id: 3,
-    year: 2023,
-    title: "Doodle - customer support chatbot",
+    year: "Jun 2020 - Jun 2021",
+    title: "Stdio Hue",
     description:
-      "We built an advanced customer support chatbot for Doodle. Our chatbot now handles 87% of Doodles/s customer suppoter",
-    image: project3,
+      "StdioHue was my first company, where I worked as an intern. I learned a great deal about programming, Git, React, Node, and Docker, and gained an understanding of Agile Scrum principles.",
+    image: stdio,
   },
 ];
 
@@ -67,7 +67,7 @@ export const Portfolio = () => {
       <div className="max-w-7xl mx-auto px-4 grid lg:grid-cols-2 gap-12">
         <div>
           <h2 className="text-6xl font-bold mb-10">
-            Selected <span className="text-purple-400"> Projects</span>
+            My <span className="text-purple-400"> Experiments</span>
           </h2>
           {projects.map((project) => (
             <div

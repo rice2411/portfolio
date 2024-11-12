@@ -7,10 +7,13 @@ import { Navbar } from "@/components/Navbar";
 import { Portfolio } from "@/components/Portfolio";
 import { Services } from "@/components/Services";
 import { Stack } from "@/components/Stack";
-
+import Head from "next/head";
 export default function Home() {
   return (
     <>
+      <Head>
+        <title>Minh Rice Portfolio</title>
+      </Head>
       <Navbar />
       <Hero />
       <Stack />
@@ -18,7 +21,7 @@ export default function Home() {
       <Portfolio />
       <KeyMetrics />
       <Services />
-      <Contact/>
+      <Contact />
       <Footer />
     </>
   );

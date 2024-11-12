@@ -33,10 +33,10 @@ export const Contact = () => {
             <div className="space-y-2">
               <p className="text-lg text-gray-300">Phone</p>
               <a
-                href="tel:+999999999"
+                href="tel:+84776750418"
                 className="text-2xl font-semibold hover:text-purple-400 transition duration-300 flex items-center gap-2"
               >
-                +99 (0) 99 999 999<span className="text-gray-500">↗</span>
+                +84 (0) 77 675 0418<span className="text-gray-500">↗</span>
               </a>
             </div>
 
@@ -52,11 +52,11 @@ export const Contact = () => {
             <div className="space-y-2">
               <p className="text-lg text-gray-300">Office</p>
               <address className="text-xl not-italic leading-relaxed">
-                Keizersgracht 520, 1017EK
+                Rikkeisoft Huế, 62 Tố Hữu
                 <br />
-                Amsterdam
+                Thành phố Huế
                 <br />
-                The Netherlands
+                Việt Nam
               </address>
             </div>
           </motion.div>
