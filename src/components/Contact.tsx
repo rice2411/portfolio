@@ -44,7 +44,7 @@ export const Contact = () => {
               <p className="text-lg text-gray-300">Email</p>
               <a
                 href="mailto:john@doe.com"
-                className="text-2xl font-semibold hover:text-purple-400 transition duration-300 flex items-center gap-2"
+                className="text-xl font-semibold hover:text-purple-400 transition duration-300 flex items-center gap-2"
               >
                 minhrice.dev@gmail.com<span className="text-gray-500">↗</span>
               </a>
